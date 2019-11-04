@@ -51,7 +51,7 @@ Now for the 2020 wishlist - people have already mentioned in other Rust 2020 blo
 
 - [GAT](https://github.com/rust-lang/rfcs/blob/master/text/1598-generic_associated_types.md): Allows to write code (libraries!) in a more generic way, reduces repetitive code that can't be handled by macros alone.
 
-- [specialization](https://github.com/rust-lang/rfcs/blob/master/text/1210-impl-specialization.md): Optimize code for specific cases. Some scientists would sell an arm and a leg to make their code run faster ;-)
+- [Specialization](https://github.com/rust-lang/rfcs/blob/master/text/1210-impl-specialization.md): Optimize code for specific cases. Some scientists would sell an arm and a leg to make their code run faster ;-)
 
 - [Delegation](https://github.com/contactomorph/rfcs/blob/delegation/text/0000-delegation-of-implementation.md): People coming from OOP languages like C++, Java, C#, etc. have to learn quite some new things when seeing Rust the first time.
 Borrow checker and lifetimes are one big chunk but using a modern programming language without classes and inheritance may be shocking at first.
