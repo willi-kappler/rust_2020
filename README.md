@@ -54,7 +54,7 @@ Now for the 2020 wishlist - people have already mentioned in other Rust 2020 blo
 - [specialization](https://github.com/rust-lang/rfcs/blob/master/text/1210-impl-specialization.md): Optimize code for specific cases. Some scientists would sell an arm and a leg to make their code run faster ;-)
 
 - [Delegation](https://github.com/contactomorph/rfcs/blob/delegation/text/0000-delegation-of-implementation.md): People coming from OOP languages like C++, Java, C#, etc. have to learn quite some new things when seeing Rust the first time.
-Borrowchecker and lifetimes are one big chunk but using a modern programming language without classes and inheritance may be shocking at first.
+Borrow checker and lifetimes are one big chunk but using a modern programming language without classes and inheritance may be shocking at first.
 Here delegation could help, not only is it a feature that they know and are used to but it also reduces boilerplate code for Rust developers.
 
 - [Generic modules](https://github.com/rust-lang/rfcs/issues/424): I haven't seen this one being suggested yet for 2020 - so we have generic functions, traits, data structures, why not modules ?
@@ -67,5 +67,6 @@ Chances are good that those features will be available in 2020 since they are al
 
 A 2021 edition may be needed if things may break and new syntax is introduced. We can kind of see this as a refactoring / clean up process every three years,
 for example in the Rust 2018 edition the module system has seen some simplifications and NLL have made the life of Rust developers easier.
+
 So what about **Rust 2021: Consistency**. Make the programming language more consistent with less corner cases and surprises. The RFCs mentioned above fit into this but also other
-features like better impl traits, const fn and fixing other paper cuts make the language more consistent and easier to use.
+features like better impl traits, async traits, generators, const fn and fixing other paper cuts make the language more consistent and easier to use.
