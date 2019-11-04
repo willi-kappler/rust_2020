@@ -58,7 +58,7 @@ Borrow checker and lifetimes are one big chunk but using a modern programming la
 Here delegation could help, not only is it a feature that they know and are used to but it also reduces boilerplate code for Rust developers.
 
 - [Generic modules](https://github.com/rust-lang/rfcs/issues/424): I haven't seen this one being suggested yet for 2020 - so we have generic functions, traits, data structures, why not modules ?
-This is the next logical step and again would help to make code more reusable and easier to read. (Generics heavy crates like [diesel](http://diesel.rs/) may benefit a lot ?)
+This is the next logical step and again would help to make code more reusable and easier to read. (Generics heavy crates like [Diesel](http://diesel.rs/) may benefit a lot ?)
 
 - [Const generics](https://github.com/rust-lang/rfcs/blob/master/text/2000-const-generics.md): Of course!
 
