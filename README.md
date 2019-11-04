@@ -7,7 +7,7 @@ I'm working at the University of Tübingen (Germany) in the [geoscience departme
 (I maintain most of our servers, hardware and software wise - nowadays people have a fancy buzzword for this kind of job description: DevOps ;-)
 
 Usually I write code in Fortran, Matlab and Python but I try to use Rust whenever it makes sense.
-For example one of our projects is [EarthShape](https://esdynamics.geo.uni-tuebingen.de/) ([video](https://go.daf.li/EarthShape)), where we use Rust in production (yay!).
+For example one of our projects is [EarthShape](https://esdynamics.geo.uni-tuebingen.de/earthshape) ([videos](https://go.daf.li/EarthShape)), where we use Rust in production (yay!).
 We have four weather stations in Chile that are sending data via the Iridium satellite network and on our server the data is collected, stored into a database and pre-processed.
 Yes you may have guessed it - the software running on the server is written in Rust! It's been running, collecting and processing data for several years now without any problems!
 (To be fair the application is small but you have to start somewhere...)
@@ -22,6 +22,7 @@ Rust could make the lives of (data-) scientists a lot easier, but as with most n
 When the applications and libraries are missing people will not use it and when there are no people with domain knowledge there won't be any applications / libraries.
 We do have some good projects like [ndarray](https://github.com/rust-ndarray), [RustSim](https://github.com/rustsim), etc. but we definitely need more. I'll try to work on more Rust stuff in 2020 and
 hope that more people will recognize Rust as a good candidate for scientific / numeric / high performance computing.
+
 And of course there have already been some discussions on this topic (scientific Rust), I just collected some of the many posts:
 
 
@@ -43,7 +44,7 @@ https://www.reddit.com/r/rust/comments/bakuu1/array1_and_function_traits_scienti
 
 Rust is not the only new language that could be used in this area, there are good alternatives like
 [Julia](https://julialang.org/) (lots of libraries, nice syntax) and [Nim](https://nim-lang.org/) (Python like syntax, compiles to machine code via C/C++ backend).
-Which is a good thing since we can learn from each other. (if let and while let came from Swift for example and other good ideas from Haskell, ML, Scala have found their ways into Rust over time)
+Which is a good thing since we can learn from each other. (`if let` and `while let` came from Swift for example and other good ideas from Haskell, ML, Scala have found their ways into Rust over time)
 
 
 Now for the 2020 wishlist - people have already mentioned in other Rust 2020 blog post what language features they want, so here is my list:
@@ -66,6 +67,5 @@ Chances are good that those features will be available in 2020 since they are al
 
 A 2021 edition may be needed if things may break and new syntax is introduced. We can kind of see this as a refactoring / clean up process every three years,
 for example in the Rust 2018 edition the module system has seen some simplifications and NLL have made the life of Rust developers easier.
-So what about Rust 2021: Consistency. Make the programming language more consistent with less corner cases and surprises. The RFCs mentioned above fit into this but also other
-features like better impl traits, const fn and fixing other paper cuts make the language more consistent.
-
+So what about *Rust 2021: Consistency*. Make the programming language more consistent with less corner cases and surprises. The RFCs mentioned above fit into this but also other
+features like better impl traits, const fn and fixing other paper cuts make the language more consistent and easier to use.
