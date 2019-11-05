@@ -43,8 +43,8 @@ https://www.reddit.com/r/rust/comments/bakuu1/array1_and_function_traits_scienti
 
 
 Rust is not the only new language that could be used in this area, there are good alternatives like
-[Julia](https://julialang.org/) (lots of libraries, nice syntax) and [Nim](https://nim-lang.org/) (Python like syntax, compiles to machine code via C/C++ backend).
-Which is a good thing since we can learn from each other. (`if let` and `while let` came from Swift for example and other good ideas from Haskell, ML and Scala have found their ways into Rust over time)
+[Julia](https://julialang.org/) (lots of libraries, nice syntax) and [Nim](https://nim-lang.org/) (Python like syntax, compiles to machine code via C/C++ backend),
+which is a good thing since we can learn from each other. (`if let` and `while let` came from Swift for example and other good ideas from Haskell, ML and Scala have found their ways into Rust over time)
 
 
 Now for the 2020 wishlist - people have already mentioned in other Rust 2020 blog post what language features they want, so here is my list:
