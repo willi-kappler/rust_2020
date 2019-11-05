@@ -1,7 +1,7 @@
 # Rust 2020: Scientific Rust
 
 I've never written a Rust blog post before when the Rust team made their call for the Rust roadmap.
-But this year I just decided to do it :-)
+But [this year](https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html) I just decided to do it :-)
 
 I'm working at the University of Tübingen (Germany) in the [geoscience department](https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/geosciences/department/) as a software developer and system administrator.
 (I maintain most of our servers, hardware and software wise - nowadays people have a fancy buzzword for this kind of job description: DevOps ;-)
@@ -10,7 +10,7 @@ Usually I write code in Fortran, Matlab and Python but I try to use Rust wheneve
 For example one of our projects is [EarthShape](https://esdynamics.geo.uni-tuebingen.de/earthshape) ([videos](https://go.daf.li/EarthShape)), where we use Rust in production (yay!).
 We have four weather stations in Chile that are sending data via the Iridium satellite network and on our server the data is collected, stored into a database and pre-processed.
 Yes you may have guessed it - the software running on the server is written in Rust! It's been running, collecting and processing data for several years now without any problems!
-(To be fair the application is small but you have to start somewhere...)
+(To be honest the application is small but you have to start somewhere...)
 
 I plan (and wish) to do more in Rust, newer tools are written in Rust and I'm slowly translating old code to Rust when possible.
 
