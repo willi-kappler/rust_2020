@@ -63,6 +63,7 @@ This is the next logical step and again would help to make code more reusable an
 - [Const generics](https://github.com/rust-lang/rfcs/blob/master/text/2000-const-generics.md): Of course!
 
 
+(Yes it's basically what most other people have already written and yes there are more features that would help with scientific Rust but I wanted to keep the list short.)
 Chances are good that those features will be available in 2020 since they are already actively being worked on (generic modules is an exception).
 
 A 2021 edition may be needed if things may break and new syntax is introduced. We can kind of see this as a refactoring / clean up process every three years,
