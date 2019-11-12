@@ -20,7 +20,7 @@ initially written for a not-so-common vector-cpu platform you may feel my pain..
 
 Rust could make the lives of (data-) scientists a lot easier, but as with most new programming languages it's a chicken and egg problem:
 When the applications and libraries are missing people will not use it and when there are no people with domain knowledge there won't be any applications / libraries.
-We do have some good projects like [ndarray](https://github.com/rust-ndarray), [RustSim](https://github.com/rustsim), [uom](https://github.com/iliekturtles/uom), etc. but we definitely need more. I'll try to work on more Rust stuff in 2020 and
+We do have some good projects like [ndarray](https://github.com/rust-ndarray), [RustSim](https://github.com/rustsim), [uom](https://github.com/iliekturtles/uom), etc. but we definitely need more (some stuff is also mentioned here [Not-Yet-Awesome Rust](https://github.com/not-yet-awesome-rust/not-yet-awesome-rust)). I'll try to work on more Rust stuff in 2020 and
 hope that more people will recognize Rust as a good candidate for scientific / numeric / high performance computing.
 
 And of course there have already been some discussions on this topic (scientific Rust), I just collected some of the many posts:
