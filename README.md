@@ -4,7 +4,7 @@ I've never written a Rust blog post before when the Rust team made their call fo
 But [this year](https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html) I just decided to do it :-)
 
 I'm working at the University of Tübingen (Germany) in the [geoscience department](https://uni-tuebingen.de/en/faculties/faculty-of-science/departments/geosciences/department/) as a software developer and system administrator.
-(I maintain most of our servers, hardware and software wise - nowadays people have a fancy buzzword for this kind of job description: DevOps ;-)
+(I maintain most of our servers, hardware and software wise)
 
 Usually I write code in Fortran, Matlab and Python but I try to use Rust whenever it makes sense.
 For example one of our projects is [EarthShape](https://esdynamics.geo.uni-tuebingen.de/earthshape) ([videos](https://go.daf.li/EarthShape)), where we use Rust in production (yay!).
