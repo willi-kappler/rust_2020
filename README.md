@@ -70,4 +70,4 @@ A 2021 edition may be needed if things may break and new syntax is introduced. W
 for example in the Rust 2018 edition the module system has seen some simplifications and NLL have made the life of Rust developers easier.
 
 So what about **Rust 2021: Consistency**. Make the programming language more consistent with less corner cases and surprises. The RFCs mentioned above fit into this but also other
-features like better impl traits, async traits, generators, const fn and fixing other paper cuts make the language more consistent and easier to use.
+features like better impl traits, async traits, generators, const fn, simd, procedural macros and fixing other paper cuts make the language more consistent and easier to use.
