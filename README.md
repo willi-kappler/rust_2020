@@ -66,7 +66,7 @@ This is the next logical step and again would help to make code more reusable an
 (Yes it's basically what most other people have already written and yes there are more features that would help with scientific Rust but I wanted to keep the list short.)
 ~~Chances are good that those features will be available in 2020 since they are already actively being worked on (generic modules is an exception)~~.
 I've been too optimistic - sorry for that! My (wrong) impression was that those complicated and work intensive features were mostly done (see comments on Reddit discussion at the bottom).
-But even if we only have GATs and maybe const generics that would be a big improvement!
+But even if we only have GATs or const generics that would be a big improvement!
 
 A 2021 edition may be needed if things may break and new syntax is introduced. We can kind of see this as a refactoring / clean up process every three years,
 for example in the Rust 2018 edition the module system has seen some simplifications and NLL have made the life of Rust developers easier.
