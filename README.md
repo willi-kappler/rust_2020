@@ -64,10 +64,13 @@ This is the next logical step and again would help to make code more reusable an
 
 
 (Yes it's basically what most other people have already written and yes there are more features that would help with scientific Rust but I wanted to keep the list short.)
-Chances are good that those features will be available in 2020 since they are already actively being worked on (generic modules is an exception).
+~~Chances are good that those features will be available in 2020 since they are already actively being worked on (generic modules is an exception)~~.
+I've been too optimistic - sorry for that! My (wrong) impression was that those complicated and work intensive features were mostly done.
+But even if we only have GATs and maybe const generics that would be a big improvement!
 
 A 2021 edition may be needed if things may break and new syntax is introduced. We can kind of see this as a refactoring / clean up process every three years,
 for example in the Rust 2018 edition the module system has seen some simplifications and NLL have made the life of Rust developers easier.
 
 So what about **Rust 2021: Consistency**. Make the programming language more consistent with less corner cases and surprises. The RFCs mentioned above fit into this but also other
 features like better impl traits, async traits, generators, const fn, simd, procedural macros and fixing other paper cuts make the language more consistent and easier to use.
+
