@@ -74,3 +74,4 @@ for example in the Rust 2018 edition the module system has seen some simplificat
 So what about **Rust 2021: Consistency**. Make the programming language more consistent with less corner cases and surprises. The RFCs mentioned above fit into this but also other
 features like better impl traits, async traits, generators, const fn, simd, procedural macros and fixing other paper cuts make the language more consistent and easier to use.
 
+(Discussion on [Reddit](https://www.reddit.com/r/rust/comments/dvcvo7/rust_2020_scientific_rust/))
